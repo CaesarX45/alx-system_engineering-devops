@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | grep -v '^d' | head -n 10 | rev | cut -d' ' -f1 | rev
+ls -t | head -n 10
